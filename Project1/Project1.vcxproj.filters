@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов\ixwebsocket">
+      <UniqueIdentifier>{aae80fa8-1732-4e51-9304-b21a2bbac313}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Файлы ресурсов</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ixwebsocket\IXBench.cpp">
+      <Filter>Файлы ресурсов\ixwebsocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ixwebsocket\IXCancellationRequest.cpp">
+      <Filter>Файлы ресурсов\ixwebsocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ixwebsocket\IXConnectionState.cpp">
+      <Filter>Файлы ресурсов\ixwebsocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ixwebsocket\IXDNSLookup.cpp">
+      <Filter>Файлы ресурсов\ixwebsocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ixwebsocket\IXExponentialBackoff.cpp">
+      <Filter>Файлы ресурсов\ixwebsocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ixwebsocket\IXGetFreePort.cpp">
+      <Filter>Файлы ресурсов\ixwebsocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ixwebsocket\IXGzipCodec.cpp">
+      <Filter>Файлы ресурсов\ixwebsocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ixwebsocket\IXHttp.cpp">
+      <Filter>Файлы ресурсов\ixwebsocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ixwebsocket\IXHttpClient.cpp">
+      <Filter>Файлы ресурсов\ixwebsocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ixwebsocket\IXHttpServer.cpp">
+      <Filter>Файлы ресурсов\ixwebsocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ixwebsocket\IXNetSystem.cpp">
+      <Filter>Файлы ресурсов\ixwebsocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ixwebsocket\IXSelectInterrupt.cpp">
+      <Filter>Файлы ресурсов\ixwebsocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ixwebsocket\IXSelectInterruptFactory.cpp">
+      <Filter>Файлы ресурсов\ixwebsocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ixwebsocket\IXSelectInterruptPipe.cpp">
+      <Filter>Файлы ресурсов\ixwebsocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ixwebsocket\IXSetThreadName.cpp">
+      <Filter>Файлы ресурсов\ixwebsocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ixwebsocket\IXSocket.cpp">
+      <Filter>Файлы ресурсов\ixwebsocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ixwebsocket\IXSocketAppleSSL.cpp">
+      <Filter>Файлы ресурсов\ixwebsocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ixwebsocket\IXSocketConnect.cpp">
+      <Filter>Файлы ресурсов\ixwebsocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ixwebsocket\IXSocketFactory.cpp">
+      <Filter>Файлы ресурсов\ixwebsocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ixwebsocket\IXSocketMbedTLS.cpp">
+      <Filter>Файлы ресурсов\ixwebsocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ixwebsocket\IXSocketOpenSSL.cpp">
+      <Filter>Файлы ресурсов\ixwebsocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ixwebsocket\IXSocketServer.cpp">
+      <Filter>Файлы ресурсов\ixwebsocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ixwebsocket\IXSocketTLSOptions.cpp">
+      <Filter>Файлы ресурсов\ixwebsocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ixwebsocket\IXStrCaseCompare.cpp">
+      <Filter>Файлы ресурсов\ixwebsocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ixwebsocket\IXUdpSocket.cpp">
+      <Filter>Файлы ресурсов\ixwebsocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ixwebsocket\IXUrlParser.cpp">
+      <Filter>Файлы ресурсов\ixwebsocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ixwebsocket\IXUserAgent.cpp">
+      <Filter>Файлы ресурсов\ixwebsocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ixwebsocket\IXUuid.cpp">
+      <Filter>Файлы ресурсов\ixwebsocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ixwebsocket\IXWebSocket.cpp">
+      <Filter>Файлы ресурсов\ixwebsocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ixwebsocket\IXWebSocketCloseConstants.cpp">
+      <Filter>Файлы ресурсов\ixwebsocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ixwebsocket\IXWebSocketHandshake.cpp">
+      <Filter>Файлы ресурсов\ixwebsocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ixwebsocket\IXWebSocketHttpHeaders.cpp">
+      <Filter>Файлы ресурсов\ixwebsocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ixwebsocket\IXWebSocketPerMessageDeflate.cpp">
+      <Filter>Файлы ресурсов\ixwebsocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ixwebsocket\IXWebSocketPerMessageDeflateCodec.cpp">
+      <Filter>Файлы ресурсов\ixwebsocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ixwebsocket\IXWebSocketPerMessageDeflateOptions.cpp">
+      <Filter>Файлы ресурсов\ixwebsocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ixwebsocket\IXWebSocketProxyServer.cpp">
+      <Filter>Файлы ресурсов\ixwebsocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ixwebsocket\IXWebSocketServer.cpp">
+      <Filter>Файлы ресурсов\ixwebsocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ixwebsocket\IXWebSocketTransport.cpp">
+      <Filter>Файлы ресурсов\ixwebsocket</Filter>
+    </ClCompile>
+    <ClCompile Include="logs.cpp">
+      <Filter>Файлы ресурсов</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Hikk\Console Application\DataType.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Hikk\Console Application\DecodeCardSdk.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Hikk\Console Application\HCNetSDK.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Hikk\Console Application\plaympeg4.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ixwebsocket\IXBench.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ixwebsocket\IXCancellationRequest.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ixwebsocket\IXConnectionState.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ixwebsocket\IXDNSLookup.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ixwebsocket\IXGetFreePort.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ixwebsocket\IXGzipCodec.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ixwebsocket\IXHttp.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ixwebsocket\IXHttpClient.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ixwebsocket\IXHttpServer.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ixwebsocket\IXNetSystem.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ixwebsocket\IXProgressCallback.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ixwebsocket\IXSelectInterrupt.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ixwebsocket\IXSelectInterruptFactory.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ixwebsocket\IXSelectInterruptPipe.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ixwebsocket\IXSetThreadName.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ixwebsocket\IXSocket.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ixwebsocket\IXSocketAppleSSL.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ixwebsocket\IXSocketConnect.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ixwebsocket\IXSocketFactory.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ixwebsocket\IXSocketMbedTLS.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ixwebsocket\IXSocketOpenSSL.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ixwebsocket\IXSocketServer.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ixwebsocket\IXSocketTLSOptions.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ixwebsocket\IXStrCaseCompare.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ixwebsocket\IXUdpSocket.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ixwebsocket\IXUniquePtr.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ixwebsocket\IXUrlParser.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ixwebsocket\IXUserAgent.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ixwebsocket\IXUtf8Validator.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ixwebsocket\IXUuid.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ixwebsocket\IXWebSocket.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ixwebsocket\IXWebSocketCloseConstants.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ixwebsocket\IXWebSocketCloseInfo.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ixwebsocket\IXWebSocketErrorInfo.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ixwebsocket\IXWebSocketHandshake.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ixwebsocket\IXWebSocketHandshakeKeyGen.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ixwebsocket\IXWebSocketHttpHeaders.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ixwebsocket\IXWebSocketInitResult.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ixwebsocket\IXWebSocketMessage.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ixwebsocket\IXWebSocketMessageType.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ixwebsocket\IXWebSocketOpenInfo.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ixwebsocket\IXWebSocketPerMessageDeflate.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ixwebsocket\IXWebSocketPerMessageDeflateCodec.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ixwebsocket\IXWebSocketPerMessageDeflateOptions.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ixwebsocket\IXWebSocketProxyServer.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ixwebsocket\IXWebSocketSendInfo.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ixwebsocket\IXWebSocketServer.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ixwebsocket\IXWebSocketTransport.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ixwebsocket\IXWebSocketVersion.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ixwebsocket\IXExponentialBackoff.h">
+      <Filter>Файлы ресурсов\ixwebsocket</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
